@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+
+
+}
+#particles-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Valor negativo para colocar detrás de todo */
+}
+body{
+
+    margin: 0;
+    padding: 0;
+
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-image: url(../img/bts.png);
+    background-color: #8b1caa;
+   
+    
+    
+}
+
+.contenedor{
+    margin: 50px auto;
+   width: 400px;
+   padding: 30px;
+   background: rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+
+.contenedor h2{
+    
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(92, 43, 104);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor .elemento label{
+   color: #ffffff;
+
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"]{
+    width: 100%;
+    padding: 15px ;
+    color: #ffffff;
+    background: #7209b7;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+
+.contenedor .elemento input[type="submit"]:hover{
+    background: #3f37c0;
+}
+
+.imagen-logo{
+
+    width: 100%;
+    height: 300px;
+}

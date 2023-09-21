@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html  lang="en">
+    
+<head >
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <span id="particles-container"></span>
+    <div class="contenedor" > 
+       
+        <h2>Login</h2>
+        
+         <form id="forma" name="forma" method="post">
+
+            <div class="elemento">
+                <img class="imagen-logo" src="img/bts1.png" alt="logo bts">
+            </div>
+            
+            <div class="elemento">
+                
+                <label for="usuario" >Usuario</label>
+                <input type="text" name="usuario" id="usuario" required="true" autocomplete="off">
+
+            </div>
+            <div class="elemento">
+                <label for="contraseña">Contraseña</label>
+                <input type="text" name="contraseña" id="contraseña" required="true" autocomplete="off" >
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Enviar">
+            </div>
+         </form>
+    </div>
+</body>
+
+
+<script src="particles.js"></script>
+<script>
+   
+    particlesJS('particles-container', {
+        "particles": {
+            "number": {
+                "value": 10, 
+            },
+            "shape": {
+                "type": "image",
+                "image": {
+                    "src": "/Leccion12-Login/img/bts1.png", 
+                    "width": 100, 
+                    "height": 100 
+                }
+            },
+            "size": {
+                "value": 30 
+            },
+            "move": {
+                "speed": 2 
+            }
+        },
+        "background": {
+            "image": "mi-imagen-de-fondo.jpg" 
+        }
+    });
+</script>
+
+</html>
